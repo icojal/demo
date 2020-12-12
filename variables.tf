@@ -62,21 +62,6 @@ variable cms_plan {
 
 
 
-##############################################################################
-# Key Protect Variables
-##############################################################################
-
-variable kms_plan {
-  description = "the plan to use for provisioning key protect instance"
-  default     = "tiered-pricing"  
-}
-
-variable kms_root_key_name {
-  description = "the plan to use for provisioning key protect instance"
-  default     = "root_key"
-}
-
-##############################################################################
 
 
 ##############################################################################
@@ -117,25 +102,3 @@ variable postgres_plan {
 
 ##############################################################################
 
-
-##############################################################################
-# Logging and Monitoring Variables
-##############################################################################
-
-#variable activity_tracker {
-#  description = "Provision activity tracker, true or false"
-#  default     = false
-#}
-
-
-#variable logging_plan {
-#  description = "service plan for LogDNA, Activity Tracker."
-#  default     = "7-day"
-#}
-
-#variable monitor_plan {
-#  description = "service plan for Monitoring"
-#  default     = "graduated-tier"
-#}
-
-##############################################################################
