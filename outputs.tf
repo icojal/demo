@@ -2,15 +2,15 @@
 # LogDNA Ingestion Key
 ##############################################################################
 
-output logdna_id {
-  description = "GUID of LogDNA Instance"
-  value       = "${ibm_resource_instance.logdna.id}"
-}
+#output logdna_id {
+#  description = "GUID of LogDNA Instance"
+#  value       = "${ibm_resource_instance.logdna.id}"
+#}
 
-output sysdig_id {
-  description = "GUID of Sysdig Instance"
-  value       = "${ibm_resource_instance.sysdig.id}"
-}
+#output sysdig_id {
+#  description = "GUID of Sysdig Instance"
+#  value       = "${ibm_resource_instance.sysdig.id}"
+#}
 
 ##############################################################################
 
