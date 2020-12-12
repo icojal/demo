@@ -110,10 +110,10 @@ variable cos_bucket_storage_class {
 # PostgresSQL Variables
 ##############################################################################
 
-#variable postgres_plan {
-#  description = "postgresSQL database plan"
-#  default     = "standard"
-#}
+variable postgres_plan {
+  description = "postgresSQL database plan"
+  default     = "standard"
+}
 
 ##############################################################################
 
