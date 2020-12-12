@@ -122,20 +122,20 @@ variable postgres_plan {
 # Logging and Monitoring Variables
 ##############################################################################
 
-variable activity_tracker {
-  description = "Provision activity tracker, true or false"
-  default     = false
-}
+#variable activity_tracker {
+#  description = "Provision activity tracker, true or false"
+#  default     = false
+#}
 
 
-variable logging_plan {
-  description = "service plan for LogDNA, Activity Tracker."
-  default     = "7-day"
-}
+#variable logging_plan {
+#  description = "service plan for LogDNA, Activity Tracker."
+#  default     = "7-day"
+#}
 
-variable monitor_plan {
-  description = "service plan for Monitoring"
-  default     = "graduated-tier"
-}
+#variable monitor_plan {
+#  description = "service plan for Monitoring"
+#  default     = "graduated-tier"
+#}
 
 ##############################################################################
